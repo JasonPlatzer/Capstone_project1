@@ -1,0 +1,22 @@
+Some extra art questions,
+Q: Which kid's TV characters are named after Renaissance artists? A: Teenage Mutant Ninja Turtles
+Q: The graphite in an artist's pencil is made of what chemical element? A: Carbon
+
+Here are some extra space questions,
+Q: What was the first human-made object to leave the solar system? A: Voyager 1
+Q: When an asteroid enters the Earth's atmosphere and burns up, it is known as what? A: Meteor
+
+Another topic - sport questions
+Q: Which gymnast is the "triple-twisting double-tucked salto backwards" skill named after? A: Simone Biles
+Q: Which country has won the soccer world cup the most times? A: Brasil
+Q: What does MLB stand for? A: Major League Baseball
+
+Quiz Program Issues.md
+Write a more descriptive docstring at the start of the program. The docstring should describe the purpose and features of the program.
+Create data structure(s) to store the questions and answers. Your data structure should make it easy to add a new topic+questions, and to add/remove questions for an existing topic. Your program should not require the same number of questions for any topic. Data structure should be structured in a way that makes it easy for the program to access the data.
+Reduce repeated code.
+Use functions to group code into logical blocks
+Enable user to enter answer in any case and program should decide it is correct. For example, if the answer is 'Chicago', then 'chicago', 'cHicAgo' and 'CHICAGO' are all correct.
+Improve the user interface when the user selects the quiz topic. It's not clear what the user should enter here, topic = input('Would you like art, or space questions? ') If the user doesn't enter the exact string 'art' or the exact string 'space' then they must restart the program to try again. Remember that the program should work if there are more available topics, and the user should be able to choose between all available topics.
+Ensure message that is printed if user gets all the answers correct is always printed even if questions are added or removed. If another question was added, and the user answers all correctly, would the message on line 37 or line 70 be printed?
+Comment code. You don't need to comment every line, but add comments to help explain the more complex parts of the program.
